@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?XXX";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;no-cache">
+<title>0bug作业上传</title>
+<link rel="stylesheet" href="/css/index.css">
+</head>
+<body class="background">
+<div class="head"><h1>作业上传</h1></div><br><br><br><br><br><br><br>
+<div class="center">
+    <form class="word1" method="post" action="/HomeworkUpload/UploadServlet" enctype="multipart/form-data">
+	<a href="javascript:;" class="file">选择文件
+    	    <input type="file" style="cursor:pointer" multiple name="uploadFile"/>
+	</a><br/><br/>
+	<a class="file">上传
+    	    <input class="word2" style="cursor:pointer" type="submit" value="上传"/>
+	</a><br/><br/>
+	<embed width=700px height=400px src="task.html" />
+    </form>
+</div>
+<div class="footer">
+    <div style="margin: 5px auto; width: 400px; height: 79px; text-align: center;">
+  	 <div style="text-align: center; font-size: 15px; float: left;">
+      	     <a class="bn" target="_blank" href="http://www.beian.gov.cn/">
+   	     <img src="/images/beian.png" style="float:left;"/><p class="url">公网安备 XXX号</p></a>
+   	     <a class="bn" target="_blank" href="http://beian.miit.gov.cn/"><p class="url">ICP备XXX号</p></a>
+    	</div>
+    </div>
+</div>
+</body>
+</html>

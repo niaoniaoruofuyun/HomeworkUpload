@@ -1,0 +1,16 @@
+#Uri: WebDav地址(http或者https)
+Uri=https://xxx.xxx:xxx/dav/
+
+#UserName: WebDav用户名
+UserName=User123
+
+#PassWord: WebDav密码
+PassWord=PassWord123
+
+#FileName: 要检查文件名(以,,,三个英文逗号作为分割)
+#FileFolder: 要保存的文件夹(如果识别到上传的文件名中包含FileName，则会上传到对应的FileFolder，如果不需要分类可以放空)
+FileName=作业,,,
+FileFolder=作业,,,
+
+#是否创建“其他”这个文件夹(如果不符合上面的文件分类，True: 则会放入"其他"文件夹，False: 放入WebDav地址默认目录)
+OtherFolder=True
