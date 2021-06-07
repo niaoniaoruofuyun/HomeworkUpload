@@ -12,7 +12,7 @@
 </br>2. 所有文件会释放到webapp文件夹下以war包名称命名的文件夹内
 </br>3. [webapp](./src/main/webapp)里的css和images文件夹需要移动到Tomcat目录下的webapp文件夹内，index.html和task.html需要移动到webapp目录下ROOT文件夹内，File.properties移动到Tomcat目录下的conf文件夹
 ## 配置
-</br>你需要修改Tomcat目录下的conf文件夹内的File.properties配置文件的内容
+</br>你需要修改Tomcat目录下的conf文件夹内的[File.properties](./src/main/webapp/File.properties)配置文件的内容
 
 >#Uri: WebDav地址(http或者https)  
 Uri=https://xxx.xxx:xxx/dav/  
