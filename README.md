@@ -1,6 +1,6 @@
 # HomeworkUpload
 基于WebDav的作业提交系统  
-本项目实例地址：[0bug.cn](https://www.0bug.cn)，如果需要测试文件上传功能，请上传以“网站测试.txt”为名称的文本文件。
+本项目实例地址：[0bug.cn](https://0bug.cn)，如果需要测试文件上传功能，请上传以“网站测试.txt”为名称的文本文件。
 ## 编译
 #### 环境
 </br>jdk1.8、Tomcat9.0
